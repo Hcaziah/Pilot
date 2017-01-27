@@ -2,10 +2,10 @@ Mono path[0] = 'Z:/Unity/Pilot/Pilot1_Data/Managed'
 Mono path[1] = 'Z:/Unity/Pilot/Pilot1_Data/Mono'
 Mono config path = 'Z:/Unity/Pilot/Pilot1_Data/Mono/etc'
 PlayerConnection initialized from Z:/Unity/Pilot/Pilot1_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55083
-Multi-casting "[IP] 10.0.0.126 [Port] 55083 [Flags] 2 [Guid] 2802857681 [EditorId] 4245478349 [Version] 1048832 [Id] WindowsPlayer(Zachs-PC) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55083]
-PlayerConnection already initialized - listening to [0.0.0.0:55083]
+PlayerConnection initialized network socket : 0.0.0.0 55232
+Multi-casting "[IP] 172.18.11.18 [Port] 55232 [Flags] 2 [Guid] 2130133483 [EditorId] 2618680108 [Version] 1048832 [Id] WindowsPlayer(Zachs-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55232]
+PlayerConnection already initialized - listening to [0.0.0.0:55232]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,13 +25,13 @@ Platform assembly: Z:\Unity\Pilot\Pilot1_Data\Managed\UnityEngine.Networking.dll
 Loading Z:\Unity\Pilot\Pilot1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: Z:\Unity\Pilot\Pilot1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading Z:\Unity\Pilot\Pilot1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.017 seconds
+- Completed reload, in  0.018 seconds
 Platform assembly: Z:\Unity\Pilot\Pilot1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: Z:\Unity\Pilot\Pilot1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.815072 ms
+UnloadTime: 0.830105 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 24a0 -> priority: 1 
+  Thread -> id: 1ad0 -> priority: 1 
