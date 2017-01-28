@@ -5,25 +5,33 @@ using UnityEngine;
 public class MWheelZoomScript : MonoBehaviour {
 	public GameObject Corsair;
 	private CameraScript CamScript;
-	private bool CamEnabled;
+	public bool CamEnabled = false;
 	public Camera myCamera;
 	public int FOV = 60;
 	// Use this for initialization
 	void Start () {
-		CamScript = Corsair.GetComponent<CameraScript>();
-		CamEnabled = CamScript.camToggle;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//myCamera = new Camera();
-		if(CamEnabled == true) {
-			print("True");
+		if(Input.GetKeyDown("c")){
+			CamEnabled = !CamEnabled;
 		}
-		if(CamEnabled == true && Input.GetAxis("Mouse ScrollWheel") > 0){
-			print("yes");
+		if (myCamera.fieldOfView == 5) {
+			//CamEnabled = false;
+			myCamera.fieldOfView = 6;
+		}
+		if (myCamera.fieldOfView == 110) {
+			//CamEnabled = false;
+			myCamera.fieldOfView = 109;
+		}
+		
+		if(CamEnabled && Input.GetAxis("Mouse ScrollWheel") > 0){
 			myCamera.fieldOfView = FOV--;//"Scrolling Greater then 1!" Scrolling up
-		} if (CamEnabled == true && Input.GetAxis("Mouse ScrollWheel") < 0) {
+		} 
+		if (CamEnabled && Input.GetAxis("Mouse ScrollWheel") < 0) {
 			myCamera.fieldOfView = FOV++;
 			//"Scrolling Less then 1!" Scrolling down
 
