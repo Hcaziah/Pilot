@@ -44,7 +44,7 @@ public class MoveScript : MonoBehaviour {
             }
             
         }
-        if (Input.GetKeyDown ("q")) {
+        if (Input.GetKeyDown ("q")) { // resets Position of Corsair
             Quaternion MainCamRot =  MainCam1.transform.rotation;
             transform.position = new Vector3(0, 5, 0);
             transform.rotation = new Quaternion(0, 0, 0, 0);
